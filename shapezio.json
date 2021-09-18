@@ -1,0 +1,408 @@
+[
+  "shapezio",
+  [
+    "j4wwun",
+    [
+      "g7nsh2j",
+      "Wut",
+      20
+    ],
+    [
+      "g7pt0h8",
+      "Wait for the wires update ;)  \n\n\n[https://i.imgur.com/zWxMoy6.png](https://i.imgur.com/zWxMoy6.png)",
+      10
+    ],
+    [
+      "g7o1itp",
+      "Cursed!",
+      10
+    ],
+    [
+      "g7o8rj2",
+      "How did you do that?",
+      7
+    ],
+    [
+      "g7q9rb0",
+      "Lol, imagine if that was a feature",
+      4
+    ],
+    [
+      "gsqixan",
+      "I looked for the most upvoted post on this subreddit and found this",
+      2
+    ],
+    [
+      "g7rv9lj",
+      "ILLEGAL",
+      2
+    ],
+    [
+      "g7wohib",
+      "nice",
+      2
+    ],
+    [
+      "g9uuyfc",
+      "No this is sanmooki",
+      1
+    ],
+    [
+      "g7onbhb",
+      "***HOW***",
+      1
+    ]
+  ],
+  [
+    "jk67yh",
+    [
+      "gah1q7a",
+      "Well Done! Actually if you Block the exit you can Use different colored Shapes as Pixel and Bild a grafical Color Display with low refresh Rate :D",
+      37
+    ],
+    [
+      "gagzpyb",
+      "It's an 8-bit programmable display.\n\nI wanted something with a higher density than I could get with an array of signal displays.\n\nEach layer of a shape can hold 20 bits of information (ignoring missing pieces).  To keep it simple I used only 8 bits per layer (four shapes is two bits, times four quadrants is eight bits).  Those bits drive transistors that are connected to the filters (gates) on the display.  The transistors are triggered with a 15 hz strobe (1 tick wide pulse 15 times per second).  Cycle through a list of shapes, and it can display anything.\n\nIn theory, you could have an 7-bit ascii character set stored in ROM, and a single 4-layer shape could store up to 11 characters.  Imagine, a single shape could store \"Hello World\" and still have 3 bits left over.",
+      23
+    ],
+    [
+      "gah2wxz",
+      "Amazing! How do you program it?",
+      11
+    ],
+    [
+      "gajfz3j",
+      " NAH I STOP PLAYING SHAPEZIO FOR 2 WEEKS THEN PEOPLE TURN IT INTO A CODING LANGUGE",
+      6
+    ],
+    [
+      "gahl8xb",
+      "Really cool! Would love to implement this in my wire projects, could you show the wiring?",
+      4
+    ],
+    [
+      "gaimz7t",
+      "I must learn your secrets, this will be quite useful for the DOOM project",
+      3
+    ],
+    [
+      "gaiqal2",
+      "<marquee>\nHello World!\n</marquee>",
+      3
+    ],
+    [
+      "galoe5v",
+      "I can't even imagine how complicated that was to make.  Sweet.",
+      3
+    ],
+    [
+      "gankt90",
+      "Is the input hard coded or is it a simpler input system?",
+      3
+    ],
+    [
+      "gai4jme",
+      "Super Awesome!  Zork or Colossal Cave coming soon?",
+      2
+    ],
+    [
+      "gakhppe",
+      "wow\n\nwow\n\nwow\n\nwow\n\nwow",
+      2
+    ],
+    [
+      "galelhs",
+      "wow",
+      2
+    ],
+    [
+      "gaic733",
+      "Brilliant idea! I\u2019m gonna have fun trying to make this.",
+      1
+    ],
+    [
+      "gajbdim",
+      "How long did this take to get the programming right?",
+      1
+    ],
+    [
+      "gaje8eq",
+      "Oh I like this",
+      1
+    ],
+    [
+      "gajsh35",
+      "Programmed to work and not to feeeeEeeEeeeel",
+      1
+    ],
+    [
+      "gbidwd3",
+      "Incredible",
+      1
+    ]
+  ],
+  [
+    "jc6dze",
+    [
+      "g8zjfi3",
+      "Thats a powerful shuriken.",
+      34
+    ],
+    [
+      "g91ma0k",
+      "Yo I never even thought about doing that",
+      4
+    ],
+    [
+      "g95mj9p",
+      "How'd you get more than 4 layers?\n\nJust tried this with circle and it only went up to CuCuCuCu:CuCuCuCu:CuCuCuCu:CuCuCuCu",
+      3
+    ],
+    [
+      "gh0ijta",
+      "its now AUTOMATED\n\n[picture](https://drive.google.com/file/d/1SPgcz9FFZNsw0BBcayvs8VpSWJzSrk0Q/view)",
+      2
+    ]
+  ],
+  [
+    "ja72kg",
+    [
+      "g8o39kk",
+      "I shall name that shape... Sasuke",
+      21
+    ],
+    [
+      "g8o9jn5",
+      "\"Once more victories the Red Army stands\"",
+      10
+    ],
+    [
+      "g8pi8j1",
+      "I had a nice patch near spawn but my cat pressed the switch on the power strip and my save got corrupt",
+      6
+    ],
+    [
+      "g8oyzf4",
+      "2 quadrant windmill shapes with both quadrants next to eachother is stupidly hard to find and I don\u2019t know why",
+      3
+    ],
+    [
+      "g8qwief",
+      "I've zoomed in to find nothing before. It hurts man",
+      2
+    ]
+  ],
+  [
+    "li7po6",
+    [
+      "gn1nrbx",
+      "Making Art and the bottom panel are not mutually exclusive",
+      7
+    ],
+    [
+      "gojrz4v",
+      "[shapez.io](https://shapez.io) factories aren't artwork?",
+      2
+    ],
+    [
+      "gn1xyla",
+      "Factorio meme basically",
+      2
+    ],
+    [
+      "gn1u0cw",
+      "XD",
+      1
+    ],
+    [
+      "gn49mlr",
+      "I'm in this image and I don't like it",
+      1
+    ],
+    [
+      "gn4qd5a",
+      "Didn't know if this was from shapez.io or factorio subreddit",
+      1
+    ]
+  ],
+  [
+    "jb6ca4",
+    [
+      "g8tq3v5",
+      "i n f i n i t e",
+      14
+    ],
+    [
+      "g8vw7l3",
+      "You could copy it and turn it 180 degrees. So it splits and recombines twice every cycle.",
+      4
+    ],
+    [
+      "g8u1q3q",
+      "I love this, but it kinda bothers me that you could cut out the conveyors after the quad cutter.",
+      10
+    ],
+    [
+      "g8vkisy",
+      "You monster!",
+      3
+    ],
+    [
+      "g8v8wnh",
+      "hahahahahahahahahahahahahahah",
+      1
+    ]
+  ],
+  [
+    "j296b2",
+    [
+      "g746q2o",
+      "Shapez pls fix",
+      11
+    ],
+    [
+      "g7508xc",
+      "Steam has a browser?",
+      8
+    ],
+    [
+      "g74cnx3",
+      "ah, yes. \"steam\". good times",
+      13
+    ],
+    [
+      "g74u3xf",
+      "Okay, so, somebody DMed me to do the beta in steam: [https://prnt.sc/uqa9jm](https://prnt.sc/uqa9jm)",
+      7
+    ],
+    [
+      "g76dfe6",
+      "Well yes but acctually no",
+      4
+    ],
+    [
+      "g8p69gc",
+      "Playing THROUGH steam is not the same as Installing it with Steam.",
+      -1
+    ]
+  ],
+  [
+    "ihefpb",
+    [
+      "g2zpbmb",
+      "I'll have to give it a try!",
+      9
+    ],
+    [
+      "g2zsmtc",
+      "And I thought *I* had a lot of monitors",
+      7
+    ],
+    [
+      "g30g1dg",
+      "If only you had slightly slimmer bezels..... but I need to know what do you use all those monitors for, right now I have two and don't see many point for more (for the use I give em)",
+      4
+    ],
+    [
+      "g30rypw",
+      "I\u2019m confused by the serious expense of this setup and the childlike cutouts on top.",
+      3
+    ],
+    [
+      "g310w30",
+      "Waaaait I need to use my dads monitor setup... SAY HELLO TO .2 FPS!",
+      1
+    ],
+    [
+      "g32cco5",
+      "Why do you have a star menu on all of your screens? (serious question) And, I'm curious about what do you do with that set up? Thanks!",
+      1
+    ]
+  ],
+  [
+    "je4b0w",
+    [
+      "g9c5y3h",
+      "\\* it works about 50% of the time  \n\\* it doesn't work with 3-layer shapes  \n\\* i have to manually reset it after a shape has been made",
+      42
+    ],
+    [
+      "g9cc0eb",
+      "Nice MAM. The resource patch is perfect too (I haven't found it yet \ud83d\ude22). I'm glad that more and more people start designing their synchronous machines. Where is the program of the machine? And how can you make the rocket shape without cutting?",
+      9
+    ],
+    [
+      "g9ea9nb",
+      "Pretty sweet! Just going to let you know that the way you stacked the rocket shape is a bug and will be patched out eventually (I think it already is in the dev branch), but a nice design nonetheless!",
+      5
+    ],
+    [
+      "g9cc0i1",
+      "Gonna have to see if this can be almost completely automated because of it can be that would be truly the most powerful machine ever",
+      2
+    ],
+    [
+      "g9cqf0p",
+      "Nice! Very compact machine!  Love the simple rotator.  I wonder if you made it 2x larger could you simplify the logic enough to fit in the same area?  The stacker with FIFO memory is neat though the splitter in front of the stacker is probably the cause of your 50% failure rate.  If you bridge the dye in, can you fit another filter to choose which side of the stacker to use?",
+      2
+    ],
+    [
+      "g9dncyz",
+      "Well, that is impressive!",
+      1
+    ],
+    [
+      "g9etsvt",
+      "I can't wrap my head around how this machine is making the rocket without a cutter :( plz send help!",
+      1
+    ],
+    [
+      "g9gccvn",
+      "Now hook up storages so you can store 5k of each shape",
+      1
+    ],
+    [
+      "g9h4i9w",
+      "can it make a logo shape? or does it not know how to make floating layers (this is coming from a lass who doesn't know how to make floating layers)",
+      1
+    ]
+  ],
+  [
+    "k392p5",
+    [
+      "ge1t8du",
+      "That's for making `Sb----Sb:SyCbCbSy:SrCyCySr:--CrCr--` shapes",
+      9
+    ],
+    [
+      "ge10w1b",
+      "hahaha",
+      1
+    ],
+    [
+      "ge1pr0o",
+      "HEY, this reminds me of my white factory",
+      1
+    ],
+    [
+      "ge4pda0",
+      "$$$$",
+      1
+    ],
+    [
+      "ge6v9wg",
+      "I found this on another subreddit and  instantly tought of this game and here it is",
+      1
+    ],
+    [
+      "geb8u1x",
+      "Psssshhhh they didn\u2019t even merge the belts",
+      1
+    ],
+    [
+      "giuz6tf",
+      "XD",
+      1
+    ]
+  ]
+]
