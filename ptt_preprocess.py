@@ -33,7 +33,7 @@ for sub in pdata:
     pdata_p.append(sub) ;
 
 with open(f"{dest}{epoch}.json","w",encoding="utf-8") as f :
-    json.dump(pdata,f,indent=2,ensure_ascii=False) 
+    json.dump(pdata_p,f,indent=2,ensure_ascii=False) 
 
     
              
