@@ -1,12 +1,13 @@
 import json
 import transformers
+from tqdm import tqdm
 import torch
 import numpy as np
 from transformers import BertTokenizerFast, AutoModel, BertConfig
 from sklearn.cluster import KMeans,AgglomerativeClustering
 from sklearn.decomposition import PCA
 
-dataset_path = './0.json'
+dataset_path = './0big.json'
 
 
 tokenizer = BertTokenizerFast.from_pretrained('bert-base-chinese')
@@ -14,7 +15,7 @@ config = BertConfig.from_pretrained("ckiplab/bert-base-chinese", output_hidden_s
 model = AutoModel.from_pretrained('ckiplab/bert-base-chinese',config=config)
 
 
-with open(f"./0.json","r",encoding="utf-8") as f :
+with open(dataset_path,"r",encoding="utf-8") as f :
     pdata= json.load(f) 
 
 pdata_p = []    
@@ -45,16 +46,17 @@ for sub in pdata:
         cluster_list.append(np.array(embed_sum_list))
         
     # pca and clustering
-    pca = PCA(n_components=3)
+    pca = PCA(n_components=16)
     pca.fit(cluster_list)
     pca_cluster_list = pca.transform(cluster_list)
     #print(pca_cluster_list)
-    clustering = AgglomerativeClustering(n_clusters=2).fit(pca_cluster_list)
+    clustering = AgglomerativeClustering(n_clusters= 5)###### 找好方法 分cluster
+    clustering.fit(pca_cluster_list)
     label = clustering.labels_
 
     #sub['comments'] = cdata_p
 
-    for i, comment in enumerate(sub['comments']) :
+    for i, comment in tqdm(enumerate(sub['comments'])) :
         comment['pca_embed'] = pca_cluster_list[i].tolist()
         comment['label'] = int(label[i])
         print(label)

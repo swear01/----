@@ -20,3 +20,5 @@ tempCodeRunnerFile.python
 test.ipynb
 debug.log
 *.json
+lda_model.pickle
+lda_model20.pickle
