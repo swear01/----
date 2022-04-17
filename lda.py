@@ -13,6 +13,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
 path = './politics/big/'
+subjects = 10
+data_pickle = 'word_matrix.pickle'
 '''
 def data_in():
     data = []
@@ -54,7 +56,8 @@ class Data():
 
 if __name__ == '__main__':
     jieba.load_userdict("zh_tw_dict.txt")
-    data = Data()
+    with open(data_pickle,"rb",) as f :
+        data = pickle.load(f)
     # print(data.seg_docs)
     # corpus = ["我 来到 北京 清华大学",  # 第一类文本切词后的结果，词之间以空格隔开
     #           "他 来到 了 网易 杭研 大厦",  # 第二类文本的切词结果
@@ -72,7 +75,7 @@ if __name__ == '__main__':
 
 
     lda = LatentDirichletAllocation(
-        n_components=100, learning_offset=50., random_state=0)
+        n_components=subjects, learning_offset=50., random_state=0)
     docres = lda.fit_transform(tf)
     # print("###################################")
     # 文檔-主題分佈矩陣
@@ -84,7 +87,7 @@ if __name__ == '__main__':
     for topic_idx, topic in enumerate(lda.components_):
         print("Topic #%d:" % topic_idx)
         print(" ".join([words[i]
-                        for i in topic.argsort()[:-20 - 1:-1]]))
+                        for i in topic.argsort()[:-subjects - 1:-1]]))
 
-    with open('lda_model.pickle2', 'wb') as f:
+    with open(f'lda_model{subjects}.pickle', 'wb') as f:
         pickle.dump(lda, f)

@@ -6,6 +6,7 @@ import numpy as np
 from transformers import BertTokenizerFast, AutoModel, BertConfig
 from sklearn.cluster import KMeans,AgglomerativeClustering
 from sklearn.decomposition import PCA
+from sklearn.metrics import davies_bouldin_score
 
 dataset_path = './0big.json'
 
@@ -53,6 +54,8 @@ for sub in pdata:
     clustering = AgglomerativeClustering(n_clusters= 5)###### 找好方法 分cluster
     clustering.fit(pca_cluster_list)
     label = clustering.labels_
+
+    score = davies_bouldin_score(pca_cluster_list, labels)
 
     #sub['comments'] = cdata_p
 

@@ -69,7 +69,7 @@ if __name__ == '__main__':
     term_freq = vectorizer.transform(comments)
     chance_matrix = lda.transform(term_freq)
     print(type(chance_matrix))
-    max_ids = list(zip(np.argmax(chance_matrix,axis=0),np.amax(chance_matrix,axis=0)))
+    max_ids = list(zip(np.argmax(chance_matrix,axis=0),np.amax(chance_matrix,axis=0))) 
     print(max_ids)
     id_set = set()
     for max_id in max_ids :
@@ -78,3 +78,15 @@ if __name__ == '__main__':
 
     abstract = [raw_comments[i] for i in id_set]
     print(abstract)
+
+    bucket = [list() for i in range(len(chance_matrix[0]))]
+    for comment,chance in zip(raw_comments,chance_matrix) :
+        if np.amax(chance) < 0.5 : continue
+        bucket[np.argmax(chance)].append(comment) 
+    print(bucket[2])
+
+    with open(f"./LDAcomments.json","w",encoding="utf-8") as f :
+        json.dump(bucket,f,indent=2,ensure_ascii=False)  
+        
+
+    
